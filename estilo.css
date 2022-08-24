@@ -1,6 +1,7 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #9c8a8a;
 }
 h1 {
   text-align: center;
@@ -10,7 +11,7 @@ h1 {
    background: blue;
    width: 200px;
    height: 200px;
-   color: #FFFFFF;
+   color: #8a3838;
    right: 500px;
    top: 200px;
 }
@@ -28,7 +29,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 45px;
-  background: rgb(32, 85, 69);
+  background: rgb(92, 66, 66);
   top: 0;
   left: 0;
 }
@@ -49,26 +50,28 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  color: yellow;
-  background: violet;
+  color: rgb(0, 0, 0);
+  background: rgb(148, 104, 104);
 }
 #image {
-   width: 30%;
+   width: 750px;
+   position: absolute;
+   top: 20px;
 }
 .boxImage {
    display: flex;
    justify-content: center;
    position: absolute;
-   width: 100%;
+   width: 1500px;
    height: 200px;
-   background: rgb(119, 156, 190);
-   top: 50px;
+   background: rgb(46, 50, 54);
+   top: 380px;
    left: 0;
    margin: 20px;
-   border-color: blue;
+   border-color: rgb(57, 57, 65);
    border-width: 20px;
    border-style: solid;
-   padding: 20px;
+   padding: 160px;
 }
 .conteudo {
   position: absolute;
@@ -78,7 +81,11 @@ li a:hover {
 #rodape {
   width: 100%;
   height: 35px;
-  background: #000000;
-  color: #FFFFFF;
+  background: #3f3939;
+  color: #f3c5c5;
+
+}
+#text{
+color: #000000;
 
 }
